@@ -2,19 +2,29 @@
 
 <div class="wrapper">
     <div class="shop_item">
-        <p>Test</p>
+        <img src="CSS/images/click.png" alt="clicker" width="150" height="150">
+        <br>
+        <button type="button" class="btn btn-primary">Buy Item</button>
     </div>
     <div class="shop_item">
-        <p>Test</p>
+        <img src="CSS/images/click.png" alt="clicker" width="150" height="150">
+        <br>
+        <button type="button" class="btn btn-primary">Buy Item</button>
     </div>
     <div class="shop_item">
-        <p>Test</p>
+        <img src="CSS/images/click.png" alt="clicker" width="150" height="150">
+        <br>
+        <button type="button" class="btn btn-primary">Buy Item</button>
     </div>
     <div class="shop_item">
-        <p>Test</p>
+        <img src="CSS/images/click.png" alt="clicker" width="150" height="150">
+        <br>
+        <button type="button" class="btn btn-primary">Buy Item</button>
     </div>
     <div class="shop_item">
-        <p>Test</p>
+        <img src="CSS/images/click.png" alt="clicker" width="150" height="150">
+        <br>
+        <button type="button" class="btn btn-primary">Buy Item</button>
     </div>
 </div>
 
