@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap');
 @import "compass/css3";
 
+body{
+  background-image: url("https://img.freepik.com/free-vector/cartoon-cooking-room-interior-kitchen-counter-with-appliances_1441-2009.jpg?w=2000");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .cookie_Holder{
     width: 400px;
     background-color: transparent;
