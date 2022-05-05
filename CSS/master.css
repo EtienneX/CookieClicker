@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap');
+@import "compass/css3";
+
+.cookie_Holder{
+    width: 400px;
+    background-color: transparent;
+    margin:auto;
+    height: 400px;
+    text-align:center;
+    margin-top: 60px;
+    display: block;
+    margin-bottom:20px;
+	touch-action: manipulation;
+}
+
+.clicker_stats{
+    width: 400px;
+    background-color: black;
+    height: 50px;
+    text-align:center;
+    margin-top: 40px;
+    display: block;
+    margin-left: 0;
+    margin: auto;
+    margin-bottom: 100px !important;
+    padding-top: 2px;
+    border: 3px solid white;
+    border-radius: 25px;
+    color: white !important;
+    font-family: 'Heebo', sans-serif;
+    font-size: 25px;
+}
+
+.cookie_Holder:hover{
+    animation: shake 0.5s;
+}
+
+#cookie:active {
+    animation: vibrate 0.1s infinite;
+}
+
+@keyframes vibrate {
+    50% { transform: rotate(1deg) translateX(10px); }
+    100% { transform: rotate(-1deg) translateX(-10px); }
+}
+
+.wrapper{
+    margin-top: 200px !important;
+    display: inline-flex;
+    margin:auto;
+}
+
+.shop_item{
+    margin-left: 20px;
+    width: 200px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .cookie_Holder{
+        width: 100%;
+        margin-top: 100px;
+        height: auto;
+    }
+    .cookie_Holder img{
+        width: 300px;
+        height: 300px;
+    }
+    .clicker_stats{
+        margin-top: 20px;
+    }
+}
